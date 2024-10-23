@@ -45,7 +45,6 @@ function App() {
 
                 </form>
             </div>
-            Edit: {isEditable.toString()}
         </>
     )
 }
