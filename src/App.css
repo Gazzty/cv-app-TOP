@@ -4,7 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
-
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +39,47 @@
 
 .read-the-docs {
   color: #888;
+}
+ */
+/* Custom */
+.form-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-section{
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-form-label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;                     /* Ajusta el ancho del input */
+    max-width: 300px;                /* Define un ancho máximo para los inputs */
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+}
+
+/* Estilos para el input cuando está bloqueado */
+.input-readonly {
+    background-color: #f0f0f0; /* Color gris claro */
+    color: #888;              /* Texto gris */
+    border-color: #d0d0d0;    /* Borde más claro */
+    cursor: not-allowed;      /* Cursor de no permitido */
 }
